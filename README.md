@@ -8,6 +8,13 @@ This notebook demonstrates a machine learning approach to predict the outcomes o
 - **Step 3: Model Training**: Building and training a Random Forest Classifier to predict match outcomes.
 - **Step 4: Prediction and Evaluation**: Evaluating the model's performance and predicting outcomes for new matches.
 
+## Data Files
+
+The archive used to construct the model contains the following files and folder:
+- **result_new.txt**: Contains scores of national team matches and the date the match took place.
+- **predict.txt**: Contains a set of matches for which predictions need to be run.
+- **rankings**: A folder containing a set of files named with dates in the format DDMMYYYY. Each file contains a set of ranking attributes for each team at that respective date.
+
 ## Model Architecture
 
 The model used in this notebook is a Random Forest Classifier implemented using scikit-learn. Random Forest is an ensemble learning method that constructs multiple decision trees during training and outputs the mode of the classes (classification) or mean prediction (regression) of the individual trees.
